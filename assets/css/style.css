@@ -1,0 +1,105 @@
+
+@import 'https://fonts.googleapis.com/css?family=Lato:300,400';
+@import 'https://fonts.googleapis.com/css?family=Roboto+Slab';
+
+* {
+	font-family: 'Lato', sans-serif;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.contentBox {
+	padding: 15px 10% 0px 10%;
+}
+
+.nav {
+	width: 100%;
+	height: 90px;
+	background-color: #fff;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	z-index: 1;
+
+}
+
+	.nav .logo-top {
+		height: 90%;
+		background-image: url('../img/logo.png');
+		background-size: contain;
+		background-repeat: no-repeat;
+		margin-left: 10px;
+	}
+
+.jTron {
+	width: 100%;
+	height: 300px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00b7ea+0,009ec3+100;Blue+3D+%2315 */
+	background: #00b7ea; /* Old browsers */
+	background: -moz-linear-gradient(top,  #00b7ea 0%, #009ec3 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #00b7ea 0%,#009ec3 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #00b7ea 0%,#009ec3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b7ea', endColorstr='#009ec3',GradientType=0 ); /* IE6-9 */
+	text-align: -webkit-center;
+	padding-top: 50px;
+}
+
+.jTron h1 {
+	color: #fff;
+	font-family: 'Roboto Slab', serif;
+}
+
+
+.card {
+	background-color: #fff;
+	width: 300px;
+	padding: 20px;
+	border-radius: 2px;
+	background-color: #FAFAFA;
+    background-position: center;
+    background-size: cover;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+    font-weight: 400;
+    padding-bottom: 1px;
+}
+
+.cardFlex {
+	-webkit-flex: 1;
+    flex: 1;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.about {
+	background-color: #ececec;
+}
+
+.about h1 {
+	font-size: 25px;
+	font-weight: 400;
+	margin-bottom: 0px;
+}
+
+.about hr {
+	width: 12%;
+	height: 5px;
+	box-shadow: none;
+    border: none;
+    color: #000;
+    background-color: #EF6C00;
+    margin-bottom: -5px;
+}
+
+.about .card {
+	margin-top: 20px;
+	margin-right: 20px;
+	width: 400px;
+}
