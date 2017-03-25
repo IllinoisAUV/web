@@ -229,6 +229,7 @@
 		.inner.sponsors img {
 			display: inline;
 			max-width: 200px;
+			max-height: 88px;
 		}
 
 /* Grid */
