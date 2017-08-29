@@ -228,8 +228,9 @@
 
 		.inner.sponsors img {
 			display: inline;
-			max-width: 200px;
+			max-width: 180px;
 			max-height: 88px;
+			vertical-align: top;
 		}
 
 /* Grid */
