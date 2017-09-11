@@ -228,7 +228,7 @@
 
 		.inner.sponsors img {
 			display: inline;
-			max-width: 125px;
+			width: 125px;
 			max-height: 88px;
 			vertical-align: middle;
 		}
