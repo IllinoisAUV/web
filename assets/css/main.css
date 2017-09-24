@@ -228,9 +228,23 @@
 
 		.inner.sponsors img {
 			display: inline;
-			width: 125px;
-			max-height: 88px;
+			width: 155px;
+			max-height: 145px;
 			vertical-align: middle;
+		}
+
+		.inner.sponsors img.smaller {
+			max-height: 120px;
+			width: 100px;
+		}
+
+		.inner.sponsors .sponsorRow:not(:first-of-type) {
+			margin-top: 40px;
+			
+		}
+
+		.inner.sponsors .sponsorRow a:not(:first-child) {
+			margin-left: 100px;
 		}
 
 /* Grid */
