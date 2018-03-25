@@ -3158,8 +3158,9 @@
 					}
 
 		.wrapper.style2 {
-			background-color: #1E2832;
-			color: rgba(255, 255, 255, 0.75);
+			background-color: #fff;
+			color: #4c4c4c;
+			padding-top: 2rem;
 		}
 
 			.wrapper.style2 input, .wrapper.style2 select, .wrapper.style2 textarea {
@@ -3175,7 +3176,11 @@
 			}
 
 			.wrapper.style2 h1, .wrapper.style2 h2, .wrapper.style2 h3, .wrapper.style2 h4, .wrapper.style2 h5, .wrapper.style2 h6 {
-				color: #fff;
+				color: #4c4c4c;
+				text-align: center;
+				font-size: 1.8rem;
+				margin-bottom: 2.5rem;
+				text-transform: none;
 			}
 
 			.wrapper.style2 blockquote {
@@ -3185,10 +3190,6 @@
 			.wrapper.style2 code {
 				background: rgba(255, 255, 255, 0.05);
 				border-color: transparent;
-			}
-
-			.wrapper.style2 hr {
-				border-bottom-color: transparent;
 			}
 
 			.wrapper.style2 header p {
@@ -3391,6 +3392,21 @@
 					.wrapper.style2 .button.alt:active {
 						background-color: rgba(255, 255, 255, 0.1);
 					}
+
+
+		.sponsorGrid table {
+			width: 100%;
+		}
+
+		.sponsorGrid table tr td {
+			width: 33%;
+			text-align: center;
+			height: 100px;
+		}
+
+
+
+
 
 		.wrapper.style3 {
 			background-color: #1E2832;
