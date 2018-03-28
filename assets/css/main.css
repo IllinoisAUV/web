@@ -3660,6 +3660,17 @@
 
 		@media screen and (max-width: 980px) {
 
+
+			p {
+				line-height: 1.5rem !important;
+			}
+
+
+			#banner video {
+				width: auto !important;
+				height: 100%;
+			}
+
 			.wrapper {
 				padding: 5em 3em 3em 3em;
 			}
