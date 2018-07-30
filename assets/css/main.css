@@ -2780,6 +2780,10 @@
 		margin-bottom: 3em;
 	}
 
+		.feature .image.full {
+			width: 100%;
+		}
+
 		.feature:last-child {
 			margin-bottom: 2em;
 		}
