@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Home | Illinois AUV</title>
+		<title>Vehicle | Illinois AUV</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -37,106 +37,50 @@
 
 		<!-- Banner -->
 
-			<section id="banner" class="videoBanner">
-				<video src="images/enigma.mp4" type="video/mp4"
-				 poster="images/poster.jpg" autoplay loop>
-				</video>
-				<div class='logoBishq'></div>
-				<h2>Illinois AUV</h2>
-				<p>University of Illinois' Autonomous Submarine Team</p>
-				<ul class="actions">
-					<li>
-						<a href="#one" class="button alt">Learn More</a>
-					</li>
-					<li>
-						<a href="vehicle.html" class="button alt">2018 Vehicle</a>
-					</li>
-				</ul>
+            <section id="banner">
+				<h2>2019 Vehicle</h2>
 			</section>
 
 		<!-- One -->
 			<section id="one" class="wrapper style1">
 				<div class="inner">
 
+					<article class="feature full">
+						<span class="image full"><img style="width: 100%" src="images/robosub_2019_sub.png" alt="" /></span>
+					</article>
+
 					<article class="feature left">
-						<span class="image"><img style="width: 100%" src="images/robosub_2019_sub.png" alt="" /></span>
+						<span class="image"><img src="images/csl" alt="" /></span>
 						<div class="content">
-							<h2>2019 Vehicle</h2>
-							<p>An update on the design and development of our new submarine for the 2019 RoboSub, San Diego</p>
-							<ul class="actions">
-								<li>
-									<a href="vehicle_2019.html" class="button alt">Read More</a>
-								</li>
-							</ul>
+							<h2>Support from the Autonomy Intiative</h2>
+							<p>We would like thank our main sponsor, the Illinois Autonomy Intiative, for their support in building this year's submarine. The Autonomy Intiative operates under the Coordinated Science Laboratory, and is a campus wide initiative to enable high-impact research and develop new educational programs in autonomous systems for students and professionals</p>
 						</div>
 					</article>
 
 
 					<article class="feature right">
-						<span class="image"><img style="width: 100%" src="images/Raubvogel.png" alt="" /></span>
+						<span class="image"><img src="images/rv2.jpg" alt="" /></span>
 						<div class="content">
-							<h2>Raubvogel - 2018 Vehicle</h2>
-							<p>Presenting the design and salient features of our 2018 submarine, Raubvogel, all set to compete at the 2018 International RoboSub competition in San Diego</p>
-							<ul class="actions">
-								<li>
-									<a href="vehicle.html" class="button alt">Read More</a>
-								</li>
-							</ul>
+							<h2>Compact Electronics</h2>
+							<p>Our team uses the NVidia Jetson TX2, a credit card-sized computer that has many hardware pins for connecting to various sensors without any modifications or extra peripherals. Our electronics fit completely in a 6"x12" tube, and we do not have to open the tube for any normal operation.</p>
 						</div>
-					</article>
+                    </article>
 
-					<article class="feature left">
-						<span class="image"><img style="width: 100%" src="images/update.png" alt="" /></span>
-						<div class="content">
-							<h2>Update - March 2018</h2>
-							<p>A quick update on our progress and preparation for Robosub 2018, as well as our experience competing at Robosub 2017!</p>
-							<ul class="actions">
-								<li>
-									<a href="update.html" class="button alt">Read More</a>
-								</li>
-							</ul>
-						</div>
-					</article>
+                    <article class="feature left">
+                        <span class="image"><img src="images/rv3.jpg" alt="" /></span>
+                        <div class="content">
+                            <h2>Deep Networks with Tracking</h2>
+                            <p>In our first year, we found that hand tuned classical computer vision algorithms were too sensitive to changes in light parameters. We are using the YOLO v3 architecture for detection, running on the Jetson TX2. To conserve computing power for other processes, YOLO is limited to run at only 4-5 fps, as the GPU is needed for other tasks, such as visual odometry.</p>
+                        </div>
+                    </article>
 
-					<article class="feature right">
-						<span class="image"><img style="width: 100%" src="https://cs.illinois.edu/sites/default/files/resize/images/SubShot2-RESIZE-400x281.JPG" alt="" /></span>
-						<div class="content">
-							<h2>Our Story</h2>
-							<p>We were recently featured on the Department of Computer Science wesbite!</p>
-							<ul class="actions">
-								<li>
-									<a href="https://cs.illinois.edu/news/student-teams-submarine-charts-its-own-autonomous-course" class="button alt">Read More</a>
-								</li>
-							</ul>
-						</div>
-					</article>
-
-					<article class="feature left">
-						<span class="image"><img src="images/pic01.jpg" alt="" /></span>
-						<div class="content">
-							<h2>About Us</h2>
-							<p>We are a student-run organization with an aim to build an autonomous underwater vehicle to compete at the international RoboSub competition organized by the Association for Unmanned Vehicle Systems Internation (AUVSI)</p>
-							<ul class="actions">
-								<li>
-									<a href="about.html" class="button alt">Learn More</a>
-								</li>
-							</ul>
-						</div>
-					</article>
-
-
-					<article class="feature right">
-						<span class="image"><img src="images/pic02.jpg" alt="" /></span>
-						<div class="content">
-							<h2>Sponsor</h2>
-							<p>We’re dependent on partnerships with generous sponsors to build our submarine and compete with it</p>
-							<ul class="actions">
-								<li>
-									<a href="sponsor.html" class="button alt">Learn More</a>
-								</li>
-							</ul>
-						</div>
-					</article>
+                    <article class="feature right">
+                        <span class="image"><img src="images/rv4.jpg" alt="" /></span>
+                        <div class="content">
+                            <h2>Simulator</h2>
+                            <p>Developing a physics-based simulator was one of the top goals for the team. We wanted to create a system where we can test our robot software stack in simulation to accelerate development and testing, even before a physical robot was complete. </p>
+                        </div>
+                    </article>
 				</div>
 			</section>
 
